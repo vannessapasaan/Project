@@ -1,14 +1,20 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Home Page
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="ion-padding" style="margin-top: 7rem;">
+    <section>
+      <img src="/assets/icon/capyotlogo.png" alt="capyotlogo">
+    </section>
+    <section>
+        <ion-button (click)="showModal()" color="primary" expand="block" routerlink="/signup">Sign up</ion-button><br>
+        <ion-button expand="block" href="https://www.facebook.com/"> Continue with facebook </ion-button><br>
+        <p>Already have an account? <a href="">Login</a></p>
+    </section>
   </div>
 </ion-content>
